@@ -1,15 +1,15 @@
 Vue.createApp({
     data() {
         return {
-            light:true,
+            light:false,
             
         }
     
     },
  
     methods: {
-        switching: () => {
-            this.light = !this.light;
+        switching(){
+            { this.light = !this.light };
            
             
         }
